@@ -1,0 +1,18 @@
+
+project_id = "uroukakmvanyeqxicuzw"
+
+[api]
+protocol = "https"
+
+[db]
+port = 5432
+schema = "public"
+
+[functions]
+node_version = "18"
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.verify-payment]
+verify_jwt = true
